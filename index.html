@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="jquery-1.12.0.js"></script>
+    <script src="script.js"></script>
+    <title>Party App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+
+        <h1>Pick Your Party</h1>
+        <p>This is a short quiz to help you determine where your political allegiances lie.</p>
+
+        <a class="btn btn-primary btn-lg" href="#" role="button">Lets play</a>
+      </div>
+
+      <form id="survey">
+        <p>On a scale of 1-10, 10 being very passionate, rate how you feel about the following subjects:</p>
+
+        <p><label for="environment">Environment</label></p>
+        <input id="environment" type="text">
+        <p><label for="health-care">Health care</label></p>
+        <input id="health-care" type="text">
+        <p><label for="immigration">Immigration</label></p>
+        <input id="immigration" type="text">
+        <p><label for="second-amendment">Second Amendment</label></p>
+        <input id="second-amendment" type="text">
+
+        <p>
+        <button type="submit" class="btn pop">Calculate my humanity</button>
+      </p>
+      </form>
+
+      <div id="high-score">
+        <p>
+          You are very passionate!  We're not gonna bother telling you what we think of you.
+        </p>
+      </div>
+
+      <div id="mid-score">
+        <p>
+          You've got some ideas, but need more action.
+        </p>
+      </div>
+
+      <div id="low-score">
+        <p>
+          You're a numpty.  Get outta here.
+        </p>
+      </div>
+
+    </div>
+  </body>
+</html>
