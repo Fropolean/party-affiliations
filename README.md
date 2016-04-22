@@ -1,12 +1,14 @@
 # Party Affiliations
 
-#### _HTML/CSS/Bootstrap webpage, 01.13.2016_
+## _HTML/CSS/Bootstrap webpage, 01.13.2016_
 
 #### By Marika Allely and Sean O'Conner
 
 ## Description
 
 A basic web quiz for determining a user's political passion.
+
+This project was made to illustrate a basic understanding of JavaScript and jQuery used in conjucture with HTML and CSS.
 
 ## Setup/Installation Requirements
 
